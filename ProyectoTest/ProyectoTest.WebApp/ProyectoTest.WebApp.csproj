@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoTest.Entity\ProyectoTest.Entity.csproj" />
+    <ProjectReference Include="..\ProyectoTest.BLL\ProyectoTest.BLL.csproj" />
+    <ProjectReference Include="..\ProyectoTest.IOC\ProyectoTest.IOC.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
